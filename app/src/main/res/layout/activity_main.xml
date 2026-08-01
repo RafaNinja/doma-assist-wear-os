@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:padding="16dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="28dp"
+        android:layout_marginBottom="20dp"
+        android:text="Doma Assist"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        tools:ignore="HardcodedText,TextSizeCheck" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="25dp"
+        android:text="Status do áudio"
+        android:textStyle="bold"
+        tools:ignore="TextSizeCheck" />
+
+    <TextView
+        android:id="@+id/txtSpeaker"
+        android:layout_width="wrap_content"
+        android:layout_height="19dp"
+        android:layout_marginTop="16dp"
+        android:text="🔊 Speaker: ❌ Offline"
+        tools:ignore="TextSizeCheck" />
+
+    <TextView
+        android:id="@+id/txtBluetooth"
+        android:layout_width="wrap_content"
+        android:layout_height="19dp"
+        android:layout_marginBottom="20dp"
+        android:text="🎧 Bluetooth: ❌ Offline"
+        tools:ignore="HardcodedText" />
+
+        <Button
+            android:id="@+id/btnVerificar"
+            android:layout_width="220dp"
+            android:layout_height="wrap_content"
+            android:text="Verificar" />
+
+        <Button
+        android:id="@+id/btnBluetooth"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Config. Bluetooth" />
+
+        <Button
+            android:id="@+id/btnAudio"
+            android:layout_width="220dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="@string/reproduzir_udio" />
+
+    </LinearLayout>
+
+</ScrollView>
