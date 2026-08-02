@@ -71,7 +71,7 @@ Os testes finais apresentaram funcionamento satisfatório das funcionalidades im
 
 A documentação acadêmica completa está disponível em:
 
-📎 `docs/Documentacao_Doma_Assist.pdf`
+📎 [Documentacao_Wear_OS_Estacio.pdf](https://github.com/user-attachments/files/30624779/Documentacao_Wear_OS_Estacio.pdf)
 
 ## ⌚ Plataforma
 
